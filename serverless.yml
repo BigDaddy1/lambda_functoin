@@ -1,0 +1,12 @@
+
+service: wiki-update
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.8
+
+functions:
+  total_update:
+    handler: handler.lambda_handler
